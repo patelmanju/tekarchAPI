@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.test.tekarchapitest.APitestEndtoEnd">
+        <methods>
+          <include name="setupBeforeTest"/>
+          <include name="TC2getUserDetails"/>
+          <include name="TC4updateUSerDetails"/>
+          <include name="setup"/>
+          <include name="TC3createUSerDetails"/>
+          <include name="teardownAfterTest"/>
+          <include name="TC1loginToTekarch"/>
+          <include name="TC5deleteUserInfo"/>
+        </methods>
+      </class> <!-- com.test.tekarchapitest.APitestEndtoEnd -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

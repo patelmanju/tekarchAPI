@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-22T00:25:29 EDT" name="Suite" finished-at="2022-10-22T00:26:05 EDT" duration-ms="36325">
+    <groups>
+    </groups>
+    <test started-at="2022-10-22T00:25:29 EDT" name="Test" finished-at="2022-10-22T00:26:05 EDT" duration-ms="36325">
+      <class name="com.test.tekarchapitest.APitestEndtoEnd">
+        <test-method is-config="true" signature="setupBeforeTest()[pri:0, instance:com.test.tekarchapitest.APitestEndtoEnd@662ac478]" started-at="2022-10-22T00:25:29 EDT" name="setupBeforeTest" finished-at="2022-10-22T00:25:29 EDT" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.tekarchapitest.APitestEndtoEnd@662ac478]" started-at="2022-10-22T00:25:29 EDT" name="setup" finished-at="2022-10-22T00:25:30 EDT" duration-ms="596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="startreport(java.lang.reflect.Method)[pri:0, instance:com.test.tekarchapitest.APitestEndtoEnd@662ac478]" started-at="2022-10-22T00:25:30 EDT" name="startreport" finished-at="2022-10-22T00:25:30 EDT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.test.tekarchapitest.APitestEndtoEnd.TC1loginToTekarch()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreport -->
+        <test-method signature="TC1loginToTekarch()[pri:1, instance:com.test.tekarchapitest.APitestEndtoEnd@662ac478]" started-at="2022-10-22T00:25:30 EDT" name="TC1loginToTekarch" finished-at="2022-10-22T00:25:31 EDT" duration-ms="1359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1loginToTekarch -->
+        <test-method signature="TC2getUserDetails()[pri:2, instance:com.test.tekarchapitest.APitestEndtoEnd@662ac478]" started-at="2022-10-22T00:25:31 EDT" name="TC2getUserDetails" finished-at="2022-10-22T00:25:55 EDT" duration-ms="24076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2getUserDetails -->
+        <test-method is-config="true" signature="startreport(java.lang.reflect.Method)[pri:0, instance:com.test.tekarchapitest.APitestEndtoEnd@662ac478]" started-at="2022-10-22T00:25:31 EDT" name="startreport" finished-at="2022-10-22T00:25:31 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.test.tekarchapitest.APitestEndtoEnd.TC2getUserDetails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreport -->
+        <test-method signature="TC3createUSerDetails()[pri:3, instance:com.test.tekarchapitest.APitestEndtoEnd@662ac478]" started-at="2022-10-22T00:25:55 EDT" name="TC3createUSerDetails" finished-at="2022-10-22T00:25:58 EDT" duration-ms="2767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3createUSerDetails -->
+        <test-method is-config="true" signature="startreport(java.lang.reflect.Method)[pri:0, instance:com.test.tekarchapitest.APitestEndtoEnd@662ac478]" started-at="2022-10-22T00:25:55 EDT" name="startreport" finished-at="2022-10-22T00:25:55 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.test.tekarchapitest.APitestEndtoEnd.TC3createUSerDetails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreport -->
+        <test-method is-config="true" signature="startreport(java.lang.reflect.Method)[pri:0, instance:com.test.tekarchapitest.APitestEndtoEnd@662ac478]" started-at="2022-10-22T00:25:58 EDT" name="startreport" finished-at="2022-10-22T00:25:58 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.test.tekarchapitest.APitestEndtoEnd.TC4updateUSerDetails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreport -->
+        <test-method signature="TC4updateUSerDetails()[pri:4, instance:com.test.tekarchapitest.APitestEndtoEnd@662ac478]" started-at="2022-10-22T00:25:58 EDT" name="TC4updateUSerDetails" finished-at="2022-10-22T00:26:02 EDT" duration-ms="4303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4updateUSerDetails -->
+        <test-method is-config="true" signature="startreport(java.lang.reflect.Method)[pri:0, instance:com.test.tekarchapitest.APitestEndtoEnd@662ac478]" started-at="2022-10-22T00:26:02 EDT" name="startreport" finished-at="2022-10-22T00:26:02 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.test.tekarchapitest.APitestEndtoEnd.TC5deleteUserInfo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreport -->
+        <test-method signature="TC5deleteUserInfo()[pri:5, instance:com.test.tekarchapitest.APitestEndtoEnd@662ac478]" started-at="2022-10-22T00:26:02 EDT" name="TC5deleteUserInfo" finished-at="2022-10-22T00:26:05 EDT" duration-ms="2733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC5deleteUserInfo -->
+        <test-method is-config="true" signature="teardownAfterTest()[pri:0, instance:com.test.tekarchapitest.APitestEndtoEnd@662ac478]" started-at="2022-10-22T00:26:05 EDT" name="teardownAfterTest" finished-at="2022-10-22T00:26:05 EDT" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTest -->
+      </class> <!-- com.test.tekarchapitest.APitestEndtoEnd -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
